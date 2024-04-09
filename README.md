@@ -5,7 +5,7 @@ It then fetches the main text from every URL within the page between the two pre
 
 Usage: node server.js  [URL*] [KEY PHRASE] 
  The key phrase is something you want to ensure your URL contains. If left empty/undefined, nothing is excluded based on the phrase.
- * = Required
+The * = Required
 
 Currently a few aspects of the code is formatted specifically for the site I was scraping, but that is easily changed within the code. 
 Currently the regex is formatted to only take .org URLs, but that can be easily changed w/in the code
